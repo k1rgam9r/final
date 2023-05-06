@@ -1,0 +1,11 @@
+f2af29
+ff595e
+0e79b2
+c3423f
+
+<div class="naruto-div">
+    <img src="./naruto-rect.png" alt="" class="naruto-rect">
+    <img src="naruto_b.png" class="naruto_b">
+    <p class="naruto-text">Наруто</p>
+    <p class="naruto_d">Жанр: приключения, фэнтези</p>
+</div>
