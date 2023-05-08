@@ -166,12 +166,67 @@ html {
     position: absolute;
     width: 700px;
     height: 460px;
-    top: 690px;
+    top: 750px;
     margin-left: -60px;
 
     background: #212529;
     border: 1px solid #FFFFFF;
     border-radius: 30px;
+}
+
+/* Евангелион */
+.eva-rect {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 700px;
+    height: 460px;
+    top: 1330px;
+    margin-left: -120px;
+
+    background: #212529;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+}
+.eva_b {
+    position: absolute;
+    width: 458px;
+    height: 300px;
+    margin-top: 1195px;
+    margin-left: 0px;
+}
+.eva-text {
+    position: absolute;
+    width: 165px;
+    height: 57px;
+    margin-left: 80px;
+    margin-top: 1515px;
+
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    /* identical to box height */
+
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+.eva_d {
+    position: absolute;
+    width: 483px;
+    height: 45px;
+    margin-left: -10px;
+    margin-top: 1570px;
+
+    white-space: nowrap;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #FFFFFF;
 }
 
 /* Hunter */
@@ -181,7 +236,7 @@ html {
     position: absolute;
     width: 700px;
     height: 460px;
-    top: 690px;
+    top: 750px;
     margin-left: 710px;
 
     background: #212529;
@@ -228,8 +283,68 @@ html {
 
     color: #FFFFFF;
 }
+
+
+
+
+/* OnePiece */
+.piece-rect {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 700px;
+    height: 460px;
+    top: 1330px;
+    margin-left: 650px;
+
+    background: #212529;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+}
+.piece_b {
+    position: absolute;
+    width: 458px;
+    height: 300px;
+    margin-top: 1195px;
+    margin-left: 770px;
+}
+.piece-text {
+    position: absolute;
+    width: 165px;
+    height: 57px;
+    margin-left: 900px;
+    margin-top: 1505px;
+
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    /* identical to box height */
+
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+.piece_d {
+    position: absolute;
+    width: 483px;
+    height: 45px;
+    margin-left: 750px;
+    margin-top: 1555px;
+
+    white-space: nowrap;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}
+
+
 .hr-view {
-    margin-top: 1150px;
+    margin-top: 1630px;
     height: 10px;
     color: whitesmoke;
 }
@@ -243,9 +358,19 @@ html {
     height: 10px;
     color: whitesmoke;
 }
+/* Прокрут по ссылке, взято с какого-то испанского сайта */
 a[ id= "contacts" ]:target ~ #main article.panel {
     -webkit-transform: translateY( -1000px );
     transform: translateY( -1000px );
+}
+a[ id= "Popularity" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
+
+a[ id= "View" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -500px );
+    transform: translateY( -500px );
 }
 .name-site {
     font-family: 'Darumadrop One', cursive;
@@ -257,5 +382,9 @@ a[ id= "contacts" ]:target ~ #main article.panel {
     margin-left: 50%;
     margin-right: 50%;
 }
-
+.View {
+    font-family: 'Darumadrop One', cursive;
+    margin-left: 720px;
+    font-size: 25px;
+}
 

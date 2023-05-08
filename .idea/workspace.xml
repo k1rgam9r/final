@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6771034-de74-4b13-9103-56df9b599855" name="Changes" comment="Update">
+    <list default="true" id="d6771034-de74-4b13-9103-56df9b599855" name="Changes" comment="Update#2">
+      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/colors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/colors.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indexnew.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexnew.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
@@ -19,6 +21,7 @@
       <list>
         <option value="HTML File" />
         <option value="HTTP Request" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -34,7 +37,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2PCDfpBSgb2r8OfwvEhCdjKERIF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -98,7 +103,7 @@
       <workItem from="1683391629283" duration="912000" />
       <workItem from="1683392902129" duration="7000" />
       <workItem from="1683434507129" duration="203000" />
-      <workItem from="1683525931641" duration="5143000" />
+      <workItem from="1683525931641" duration="11149000" />
     </task>
     <task id="LOCAL-00001" summary="Site">
       <created>1683391013104</created>
@@ -135,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683526844636</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update#2">
+      <created>1683531319556</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1683531319556</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +158,7 @@
     <MESSAGE value="Http request" />
     <MESSAGE value="Delete README.md" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Update#2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update#2" />
   </component>
 </project>

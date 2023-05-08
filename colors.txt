@@ -9,3 +9,82 @@ c3423f
     <p class="naruto-text">Наруто</p>
     <p class="naruto_d">Жанр: приключения, фэнтези</p>
 </div>
+
+/* OnePiece */
+.piece-rect {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 700px;
+    height: 460px;
+    top: 750px;
+    margin-left: 710px;
+
+    background: #212529;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+}
+.piece_b {
+    position: absolute;
+    width: 458px;
+    height: 300px;
+    margin-top: 1610px;
+    margin-left: 835px;
+}
+.piece-text {
+    position: absolute;
+    width: 165px;
+    height: 57px;
+    margin-left: 870px;
+    margin-top: 925px;
+
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    /* identical to box height */
+
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+.piece_d {
+    position: absolute;
+    width: 483px;
+    height: 45px;
+    margin-left: 770px;
+    margin-top: 982px;
+
+    white-space: nowrap;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}
+<!-- Евангелион карточка-->
+<a type="button" class="btn" data-bs-toggle="modal" data-bs-target="#PisModal">
+    <div class="eva-div">
+        <img src="./images/rect.png" alt="" class="piece-rect">
+        <img src="./images/piece.jpg" class="piece_b">
+        <p class="piece-text">Ван-Пис</p>
+        <p class="piece_d">Жанр: экшн, фэнтези</p>
+    </div>
+</a>
+<!-- Евангелион модалка-->
+<div class="modal fade" id="PisModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="HunterModal">Просмотр. Hunter x Hunter</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Ютуб плеер -->
+                <iframe width="1100" height="552" src="https://www.youtube.com/embed/g-ZpCbd-5iA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>

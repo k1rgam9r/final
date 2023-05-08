@@ -27,7 +27,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
+<script src="./script.js"></script>
 <header class="p-3 mb-3 border-bottom" >
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
@@ -35,8 +35,8 @@
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" data-bs-theme="dark">
-          <li><a href="#" class="nav-link px-2 link-secondary">Просмотр</a></li>
-          <li><a href="#" class="nav-link px-2 link-secondary">Топ</a></li>
+          <li><a href="#View" class="nav-link px-2 link-secondary">Просмотр</a></li>
+          <li><a href="#Popularity" class="nav-link px-2 link-secondary">Топ</a></li>
           <li><a href="#contacts" class="nav-link px-2 link-secondary">О нас</a></li>
         </ul>
     <!--Название сайта вместо поиска, да-да-->
@@ -49,7 +49,7 @@
       </div>
     </div>
   </header>
-
+    <p class="View" id="View">Просмотр</p>
     <!-- Наруто карточка-->
 <a type="button" class="btn" data-bs-toggle="modal" data-bs-target="#NarutoModal">
     <div class="naruto-div">
@@ -141,18 +141,69 @@
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="HunterModal">Просмотр. JoJo</h1>
+                <h1 class="modal-title fs-5" id="HunterModal">Просмотр. Hunter x Hunter</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <!-- Ютуб плеер -->
-                <iframe width="1100" height="552" src="https://www.youtube.com/embed/WAIkyZZAYMs?start=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="1100" height="552" src="https://www.youtube.com/embed/g-ZpCbd-5iA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     </div>
 </div>
+
+<!-- Евангелион карточка-->
+<a type="button" class="btn" data-bs-toggle="modal" data-bs-target="#EvaModal">
+    <div class="eva-div">
+        <img src="./images/rect.png" alt="" class="eva-rect">
+        <img src="./images/eva.webp" class="eva_b">
+        <p class="eva-text">Евангелион</p>
+        <p class="eva_d">Жанр: экшн, драма</p>
+    </div>
+</a>
+<!-- Евангелион модалка-->
+<div class="modal fade" id="EvaModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="EvaModal">Просмотр. Евангелион</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Ютуб плеер -->
+                <iframe width="1100" height="552" src="https://www.youtube.com/embed/u33us88EPK0?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- OnePiece карточка-->
+<a type="button" class="btn" data-bs-toggle="modal" data-bs-target="#PieceModal">
+    <div class="eva-div">
+        <img src="./images/rect.png" alt="" class="piece-rect">
+        <img src="./images/piece.jpg" class="piece_b">
+        <p class="piece-text">Ван-Пис</p>
+        <p class="piece_d">Жанр: экшн, фэнтези</p>
+    </div>
+</a>
+<!-- OnePiece модалка-->
+<div class="modal fade" id="PieceModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="PieceModal">Просмотр. OnePiece</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Ютуб плеер -->
+                <iframe width="1100" height="552" src="https://www.youtube.com/embed/ULdapEcU2SU?start=54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
 <hr class="hr-view">
-<p class="Popularity">Топ аниме</p>
+<p class="Popularity" id="Popularity">Топ аниме</p>
 <table class="table table-dark">
     <thead>
     <tr>
@@ -193,6 +244,36 @@
         <td>IMDB: 8.0/10, КиноПоиск: 8.1/10, kino.mail: -</td>
         <td>1995</td>
     </tr>
+    <tr>
+        <th scope="row">6</th>
+        <td>Атака титанов</td>
+        <td>IMDB: 9.1/10, КиноПоиск: 8.7/10, kino.mail: 7.5/10</td>
+        <td>2013</td>
+    </tr>
+    <tr>
+        <th scope="row">7</th>
+        <td>Ван-Пис</td>
+        <td>IMDB: 8.9/10, КиноПоиск: 8.3/10, kino.mail: 8.1/10</td>
+        <td>1999</td>
+    </tr>
+    <tr>
+        <th scope="row">8</th>
+        <td>Тетрадь смерти</td>
+        <td>IMDB: 9.0/10, КиноПоиск: 8.6/10, kino.mail: 8.0/10</td>
+        <td>2006</td>
+    </tr>
+    <tr>
+        <th scope="row">9</th>
+        <td>Ванпачмен</td>
+        <td>IMDB: 8.7/10, КиноПоиск: 8.4/10, kino.mail: -</td>
+        <td>2015</td>
+    </tr>
+    <tr>
+        <th scope="row">10</th>
+        <td>Берсерк</td>
+        <td>IMDB: 8.7/10, КиноПоиск: 8.6/10, kino.mail: -</td>
+        <td>1997</td>
+    </tr>
     </tbody>
 </table>
 <hr class="hr-top" id="TOP">
@@ -200,10 +281,11 @@
     <p type="search" class="name-site">
         AnimeUP
     </p>
-    <p>Created by Kir, with <3</p>
-    <p>Конакты:</p>
+    <p style="margin-left: 48.5%; margin-right: 50%; white-space: nowrap">Created by Kir, with <3</p>
+    <p>Контакты:</p>
     <p>Discord: k1ra#8473</p>
     <p>Email: kirgejmer@gmail.com</p>
+    <pre>All right dont reserved. xd</pre>
 </div>
 
 </body>
