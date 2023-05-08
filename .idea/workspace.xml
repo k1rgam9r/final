@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6771034-de74-4b13-9103-56df9b599855" name="Changes" comment="Delete README.md">
+    <list default="true" id="d6771034-de74-4b13-9103-56df9b599855" name="Changes" comment="Update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/indexnew.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexnew.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
     </list>
@@ -100,7 +98,7 @@
       <workItem from="1683391629283" duration="912000" />
       <workItem from="1683392902129" duration="7000" />
       <workItem from="1683434507129" duration="203000" />
-      <workItem from="1683525931641" duration="753000" />
+      <workItem from="1683525931641" duration="5143000" />
     </task>
     <task id="LOCAL-00001" summary="Site">
       <created>1683391013104</created>
@@ -130,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683392308759</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Update">
+      <created>1683526844636</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683526844636</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +145,7 @@
     <MESSAGE value="Site" />
     <MESSAGE value="Http request" />
     <MESSAGE value="Delete README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Delete README.md" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>

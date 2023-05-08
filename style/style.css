@@ -174,7 +174,88 @@ html {
     border-radius: 30px;
 }
 
+/* Hunter */
+.hunter-rect {
+    box-sizing: border-box;
 
+    position: absolute;
+    width: 700px;
+    height: 460px;
+    top: 690px;
+    margin-left: 710px;
 
+    background: #212529;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+}
+.hunter_b {
+    position: absolute;
+    width: 458px;
+    height: 300px;
+    margin-top: 610px;
+    margin-left: 835px;
+}
+.hunter-text {
+    position: absolute;
+    width: 165px;
+    height: 57px;
+    margin-left: 870px;
+    margin-top: 925px;
+
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    /* identical to box height */
+
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+.hunter_d {
+    position: absolute;
+    width: 483px;
+    height: 45px;
+    margin-left: 770px;
+    margin-top: 982px;
+
+    white-space: nowrap;
+    font-family: 'Jura';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+}
+.hr-view {
+    margin-top: 1150px;
+    height: 10px;
+    color: whitesmoke;
+}
+.Popularity {
+    font-family: 'Darumadrop One', cursive;
+    margin-left: 730px;
+    font-size: 25px;
+}
+.hr-top {
+    margin-top: 60px;
+    height: 10px;
+    color: whitesmoke;
+}
+a[ id= "contacts" ]:target ~ #main article.panel {
+    -webkit-transform: translateY( -1000px );
+    transform: translateY( -1000px );
+}
+.name-site {
+    font-family: 'Darumadrop One', cursive;
+    color: #f2af29;
+    font-size: 29px;
+    margin: 0px;
+    padding: 2px;
+    border: none;
+    margin-left: 50%;
+    margin-right: 50%;
+}
 
 

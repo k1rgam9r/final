@@ -15,7 +15,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,9 +35,9 @@
         </a>
 
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0" data-bs-theme="dark">
-          <li><a href="#DemonModal" class="nav-link px-2 link-secondary">Просмотр</a></li>
+          <li><a href="#" class="nav-link px-2 link-secondary">Просмотр</a></li>
           <li><a href="#" class="nav-link px-2 link-secondary">Топ</a></li>
-          <li><a href="#" class="nav-link px-2 link-secondary">О нас</a></li>
+          <li><a href="#contacts" class="nav-link px-2 link-secondary">О нас</a></li>
         </ul>
     <!--Название сайта вместо поиска, да-да-->
         <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
@@ -64,7 +64,7 @@
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header">
-                <h1 class="modal-title fs-5" id="staticBackdropLabel">Просмотр. Наруто</h1>
+                <h1 class="modal-title fs-5" id="NarutoModal1">Просмотр. Наруто</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
@@ -126,5 +126,85 @@
         </div>
     </div>
 </div>
+
+<!--Hunter карточка-->
+<a type="button" class="btn" data-bs-toggle="modal" data-bs-target="#HunterModal">
+    <div class="naruto-div">
+        <img src="./images/rect.png" alt="" class="hunter-rect">
+        <img src="./images/hunter.jpg" class="hunter_b">
+        <p class="hunter-text">Hunter x Hunter</p>
+        <p class="hunter_d">Жанр: приключения, фэнтези, боевик</p>
+    </div>
+</a>
+<!--Hunter модалка-->
+<div class="modal fade" id="HunterModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="HunterModal">Просмотр. JoJo</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <!-- Ютуб плеер -->
+                <iframe width="1100" height="552" src="https://www.youtube.com/embed/WAIkyZZAYMs?start=21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<hr class="hr-view">
+<p class="Popularity">Топ аниме</p>
+<table class="table table-dark">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Название</th>
+        <th scope="col">Оценка на ресурсах</th>
+        <th scope="col">Год выхода</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">1</th>
+        <td>Наруто</td>
+        <td>IMDB: 8.4/10, КиноПоиск: 7.6/10, kino.mail: 7.4/10</td>
+        <td>2002</td>
+    </tr>
+    <tr>
+        <th scope="row">2</th>
+        <td>Demon Slayer</td>
+        <td>IMDB: 8.7/10, КиноПоиск: 8.2/10, kino.mail: -</td>
+        <td>2019</td>
+    </tr>
+    <tr>
+        <th scope="row">3</th>
+        <td>JoJo</td>
+        <td>IMDB: 8.5/10, КиноПоиск: 8.6/10, kino.mail: 7.8/10</td>
+        <td>2012</td>
+    </tr>
+    <tr>
+        <th scope="row">4</th>
+        <td>Hunter x Hunter</td>
+        <td>IMDB: 9.0/10, КиноПоиск: 8.6/10, kino.mail: -</td>
+        <td>2011</td>
+    </tr>
+    <tr>
+        <th scope="row">5</th>
+        <td>Евангелион</td>
+        <td>IMDB: 8.0/10, КиноПоиск: 8.1/10, kino.mail: -</td>
+        <td>1995</td>
+    </tr>
+    </tbody>
+</table>
+<hr class="hr-top" id="TOP">
+<div id="contacts">
+    <p type="search" class="name-site">
+        AnimeUP
+    </p>
+    <p>Created by Kir, with <3</p>
+    <p>Конакты:</p>
+    <p>Discord: k1ra#8473</p>
+    <p>Email: kirgejmer@gmail.com</p>
+</div>
+
 </body>
 </html>
