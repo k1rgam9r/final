@@ -8,10 +8,12 @@ const enterTime = sessionStorage.getItem('startTime')
 const showPopup = () => {
     let currentTime = Date.now()
     let spentTime = (currentTime - enterTime) / 1000
-    if (spentTime >= 10) {
-        clearInterval(timer)
-        console.log(`Вы провели на сайте минут: ${Math.floor(spentTime / 60)}, секунд: ${Math.floor(spentTime % 60)}`)
+    setTimeout(showPopup, 1000);
+    if (spentTime >= 0.1) {
+        // clearInterval(timer)
+        document.getElementById("time-site").innerHTML = (`На сайте:`+`\n`+`${Math.floor(spentTime / 60)} минут, ${Math.floor(spentTime % 60)} сек`
+        )
     }
 }
 
-const timer = setInterval(showPopup, 10000)
+setTimeout(showPopup, 1000);

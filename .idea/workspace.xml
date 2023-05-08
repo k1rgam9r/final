@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6771034-de74-4b13-9103-56df9b599855" name="Changes" comment="Update#2">
-      <change afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+    <list default="true" id="d6771034-de74-4b13-9103-56df9b599855" name="Changes" comment="Update#3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/colors.txt" beforeDir="false" afterPath="$PROJECT_DIR$/colors.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/indexnew.html" beforeDir="false" afterPath="$PROJECT_DIR$/indexnew.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,9 @@
       <workItem from="1683391629283" duration="912000" />
       <workItem from="1683392902129" duration="7000" />
       <workItem from="1683434507129" duration="203000" />
-      <workItem from="1683525931641" duration="11149000" />
+      <workItem from="1683525931641" duration="11167000" />
+      <workItem from="1683550063799" duration="3299000" />
+      <workItem from="1683553659445" duration="2046000" />
     </task>
     <task id="LOCAL-00001" summary="Site">
       <created>1683391013104</created>
@@ -147,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683531319556</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Update#3">
+      <created>1683537392991</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1683537392992</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +166,7 @@
     <MESSAGE value="Delete README.md" />
     <MESSAGE value="Update" />
     <MESSAGE value="Update#2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update#2" />
+    <MESSAGE value="Update#3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update#3" />
   </component>
 </project>
